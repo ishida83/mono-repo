@@ -1,4 +1,5 @@
 import { configure, setAddon } from "@storybook/react";
+
 import infoAddon from "@storybook/addon-info";
 import { setOptions } from "@storybook/addon-options";
 
@@ -10,7 +11,7 @@ function loadStories() {
 
 setOptions({
   name: "Storybook",
-  url: "https://test.com",
+  url: "https://starlog.cn",
   goFullScreen: false,
   showLeftPanel: true,
   showDownPanel: true,
