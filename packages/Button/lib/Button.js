@@ -1,5 +1,6 @@
-import styled from "styled-components";
 import * as colors from "./colors";
+
+import styled from "styled-components";
 
 const Button = styled.button`
   background: ${({ bgcolor }) => colors[bgcolor]};
@@ -15,7 +16,7 @@ const Button = styled.button`
   outline: none;
   padding: 0 12px;
   text-transform: uppercase;
-  transition: all 300ms ease;
+  transition: all 300ms ease-in-out;
   &:hover {
     background: #009EEB;
   }
